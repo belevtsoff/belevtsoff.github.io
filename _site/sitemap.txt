@@ -1,0 +1,11 @@
+
+http://belevtsoff.github.io/archive.html
+http://belevtsoff.github.io/atom.xml
+http://belevtsoff.github.io/categories.html
+http://belevtsoff.github.io/index.html
+http://belevtsoff.github.io/pages.html
+http://belevtsoff.github.io/rss.xml
+http://belevtsoff.github.io/sitemap.txt
+http://belevtsoff.github.io/tags.html
+
+http://belevtsoff.github.io/2015/01/12/hello-world

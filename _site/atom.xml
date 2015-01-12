@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Dmytro's blog</title>
+ <link href="http://belevtsoff.github.io/" rel="self"/>
+ <link href="http://belevtsoff.github.io"/>
+ <updated>2015-01-12T22:59:13+02:00</updated>
+ <id>http://belevtsoff.github.io</id>
+ <author>
+   <name>Dmytro Bielievtsov</name>
+   <email>belevtsoff@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Hello World</title>
+   <link href="http://belevtsoff.github.io/2015/01/12/hello-world"/>
+   <updated>2015-01-12T00:00:00+02:00</updated>
+   <id>http://belevtsoff.github.io/2015/01/12/hello-world</id>
+   <content type="html">
+&lt;p&gt;Seriously: hello world! This is the first post after all.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ 
+</feed>
