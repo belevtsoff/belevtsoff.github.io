@@ -20,8 +20,8 @@ tags: []
     target.innerHTML = "Hello user! Your VKontakte ID is probably <b>"+vk_id+"</b>";
   };
   
-  VK.Auth.getLoginStatus(callback);
-  VK.UI.button('login_button');
+  //VK.Auth.getLoginStatus(callback);
+  VK.UI.button('vk_status');
 </script>
 
 <div id="vk_status"></div>
