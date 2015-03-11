@@ -13,7 +13,7 @@ tags: []
 <script type="text/javascript">
   VK.init({
     apiId: 4822267,
-    onlyWidgets: true
+    //onlyWidgets: true
   });
 
   var callback = function(status) {
