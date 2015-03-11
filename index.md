@@ -9,7 +9,7 @@ think might be of any use to other strangers, seeking for answers.
 
 ## Posts
 
-Here's what I've got so far:
+Here's what I've got so farRr:
 
 <ul class="posts">
   {% for post in site.posts %}
