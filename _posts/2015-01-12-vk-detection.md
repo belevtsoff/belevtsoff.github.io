@@ -23,7 +23,7 @@ tags: []
   };
   
   //VK.Auth.getLoginStatus(callback);
-  VK.UI.button('vk_status');
+  //VK.UI.button('vk_status');
 </script>
 
 
