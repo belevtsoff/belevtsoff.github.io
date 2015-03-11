@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Vk Comments"
+title: "Vk ID Detection Test"
 description: ""
 category: 
 tags: []
@@ -18,11 +18,16 @@ tags: []
 
   var callback = function(status) {
     var vk_id = status.session.mid;
-    var target = document.getElementById("vk_comments");
+    var target = document.getElementById("vk_status");
     target.innerHTML = "Hello user! Your VKontakte ID is probably <b>"+vk_id+"</b>";
   };
   
   VK.Auth.getLoginStatus(callback);
 </script>
 
+<div id="vk_status"></div>
+
 <div id="vk_comments"></div>
+<script type="text/javascript">
+ VK.Widgets.Comments('vk_comments');
+</script>
