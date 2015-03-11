@@ -14,8 +14,6 @@ tags: []
     onlyWidgets: true
   });
 
-  vk_id = null;
-
   var callback = function(status) {
     var vk_id = status.session.mid;
     var target = document.getElementById("vk_status");
@@ -23,6 +21,7 @@ tags: []
   };
   
   VK.Auth.getLoginStatus(callback);
+  VK.UI.button('login_button');
 </script>
 
 <div id="vk_status"></div>
