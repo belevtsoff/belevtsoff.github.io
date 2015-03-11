@@ -7,6 +7,8 @@ tags: []
 ---
 {% include JB/setup %}
 
+<div id="vk_status"></div>
+
 <script src="//vk.com/js/api/openapi.js" type="text/javascript" charset="windows-1251"></script>
 <script type="text/javascript">
   VK.init({
@@ -24,7 +26,6 @@ tags: []
   VK.UI.button('vk_status');
 </script>
 
-<div id="vk_status"></div>
 
 <div id="vk_comments"></div>
 <script type="text/javascript">
