@@ -87,6 +87,12 @@ tags: []
       document.getElementById('status').innerHTML =
         'Thanks for logging in, ' + response.name + '!';
     });
+    FB.getLoginStatus(function(response) {
+      if (response.status === 'connected') {
+        var accessToken = response.authResponse.accessToken;
+        console.log(accessToken);
+      } 
+    } );
   }
 </script>
 
