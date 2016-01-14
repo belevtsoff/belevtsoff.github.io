@@ -88,6 +88,7 @@ tags: []
         'Thanks for logging in, ' + response.name + '!';
     });
     FB.getLoginStatus(function(response) {
+      console.log(response.status);
       if (response.status === 'connected') {
         var accessToken = response.authResponse.accessToken;
         console.log(accessToken);
