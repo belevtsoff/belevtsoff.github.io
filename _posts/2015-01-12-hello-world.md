@@ -94,5 +94,5 @@ Seriously: hello world! This is the first post after all.
 
 PRESS HERE
 ==========
-<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+<fb:login-button scope="public_profile,email,user_friends" onlogin="checkLoginState();">
 </fb:login-button>
